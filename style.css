@@ -1,0 +1,65 @@
+.container {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.header__container {
+    padding-top: 120px;
+    padding-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__container-solutions {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    padding-top: 9px;
+    padding-bottom: 93px;
+    margin: 0;
+}
+
+.header__container-ansible {
+    text-align: center;
+    font-weight: 600;
+    font-size: 82px;
+    line-height: 1.17;
+    margin: 0;
+}
+
+.header__feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.header__feedback-quote {
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+    width: 960px;
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 4px solid #000000;
+    padding: 20px 0;
+}
+
+}
+
+.header__feedback-quote_URL {
+    color: #0056d3;
+    text-decoration: none
+}
+
+.header__feedback-author {
+    display: flex;
+    position: relative;
+    float: left;
+    width: 500px;
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap-reverse;
+}
