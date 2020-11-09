@@ -31,6 +31,8 @@
 .header__feedback {
     display: flex;
     flex-direction: column;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .header__feedbackContainer {
@@ -67,12 +69,11 @@
 
 .header__feedback-author {
     position: relative;
-    width: 500px;
+    width: 960px;
     height: 80px;
     box-sizing: content-box;
     margin-left: auto;
     margin-right: auto;
-    flex-wrap: wrap-reverse;
 }
 
 .header__feedback-author_pic {
@@ -81,6 +82,7 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
+    margin-right: 20px;
 }
 
 .header__feedback-author_name {
@@ -97,4 +99,67 @@
     letter-spacing: 1px;
     font-weight: 300;
     margin: 0;
+}
+
+.adjustments__container {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.adjsutments__header {
+    font-size: 42px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+}
+
+.adjustments__resolve {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 105px;
+}
+
+.adjustments__init, .adjustments__regular {
+    display: flex;
+    justify-content: center;
+}
+
+.adjustments__init_text-name, .adjustments__regular_text-name {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.adjustments__init_text-description, .adjustments__regular_text-description {
+    font-size: 18px;
+    font-weight: 300;
+    width: 400px;
+    height: 108.8px;
+}
+
+.adjustments__init_button, .adjustments__regular_button {
+    color: #ffffff;
+    background-color: #14bae6;
+    border-radius: 30px;
+    height: 45px;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.adjustments__init_pic, .adjustments__regular_pic {
+    display: block;
+    width: 460px;
+}
+
+.separator {
+    margin-bottom: 120px;
+    width: 960px;
+    display: block;
 }
