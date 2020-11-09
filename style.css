@@ -31,7 +31,13 @@
 .header__feedback {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+}
+
+.header__feedbackContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header__feedback-quote {
@@ -40,12 +46,9 @@
     font-weight: bold;
     width: 960px;
     box-sizing: content-box;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 0;
     border-top: 4px solid #000000;
     padding: 20px 0;
-}
-
 }
 
 .header__feedback-quote_URL {
@@ -53,13 +56,45 @@
     text-decoration: none
 }
 
+.header__feedback-bottomLine {
+    display: block;
+    overflow: hidden;
+    width: 960px;
+    height: 60px;
+    box-sizing: content-box;
+    justify-self: flex-end;
+}
+
 .header__feedback-author {
-    display: flex;
     position: relative;
-    float: left;
     width: 500px;
+    height: 80px;
     box-sizing: content-box;
     margin-left: auto;
     margin-right: auto;
     flex-wrap: wrap-reverse;
+}
+
+.header__feedback-author_pic {
+    display: block;
+    float: left;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.header__feedback-author_name {
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.header__feedback-author_proffesion {
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin: 0;
 }
